@@ -19,7 +19,8 @@ s.requires_arc = true
 
 s.source           = { :git => "https://github.com/liuyaqiang/yf_TouTiaoSDK.git", :tag => "#{s.version}" }
 s.resource     = 'TouTiao/BuAdSDK.bundle'
+s.libraries = 'c++','z','resolv'
 s.vendored_frameworks = 'TouTiao/BuAdSDK.framework'
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices', 'Photos', 'CoreMotion'
 end
