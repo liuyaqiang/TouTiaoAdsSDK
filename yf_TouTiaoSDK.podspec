@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_TouTiaoSDK"
-s.version          = "1.9.3.1"
+s.version          = "2.0.0"
 s.summary          = "yf_TouTiaoSDK"
 
 s.description      = <<-DESC
