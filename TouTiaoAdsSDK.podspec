@@ -1,12 +1,12 @@
 
 
 Pod::Spec.new do |s|
-s.name             = "yf_TouTiaoSDK"
+s.name             = "TouTiaoAdsSDK"
 s.version          = "2.0.0.0"
-s.summary          = "yf_TouTiaoSDK"
+s.summary          = "TouTiaoAdsSDK"
 
 s.description      = <<-DESC
-yf_TouTiaoSDK for ads
+AdsSDK for toutiao
 DESC
 
 s.homepage         = "https://www.baidu.com"
@@ -17,7 +17,7 @@ s.author       = { "liuyaqiang" => "344257448@qq.com" }
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 
-s.source           = { :git => "https://github.com/liuyaqiang/yf_TouTiaoSDK.git", :tag => "#{s.version}" }
+s.source           = { :git => "https://github.com/liuyaqiang/TouTiaoAdsSDK.git", :tag => "#{s.version}" }
 s.resource     = 'TouTiao/BuAdSDK.bundle'
 s.libraries = 'c++','z','resolv'
 s.vendored_frameworks = 'TouTiao/BuAdSDK.framework'
